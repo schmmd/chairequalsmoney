@@ -1,0 +1,134 @@
+; 100 Boxes
+
+; Copyright: François Marques
+; E-Mail: sokoban@online.fr
+; Web Site: http://sokoban.online.fr
+;
+; This collection includes 10 small levels of 10 packages each. It is intended for the
+; expert who has a few (many) hours in front of them.
+;   
+
+   ####  
+####  ## 
+#   $  # 
+#  *** # 
+#  . . ##
+## * *  #
+ ##***  #
+  # $ ###
+  # @ #  
+  #####  
+Title: Connection
+Author: François Marques
+
+ ######### 
+ #   #   # 
+ # @ #   # 
+##$**$**$# 
+#  #. .# ##
+#  .*$*.  #
+#         #
+###########
+Title: Two rooms
+Author: François Marques
+
+  #####  
+  #   #  
+  #   #  
+### * ###
+#  *.*  #
+#  *.*  #
+#  *.*  #
+###$$$###
+  # @ #  
+  #####  
+Title: Fill the hall
+Author: François Marques
+
+  ####    
+### @#####
+#  $$$   #
+# **.**  #
+##     ###
+# .***. # 
+#       # 
+######### 
+Title: Two lines
+Author: François Marques
+
+ ####### 
+ #  @  # 
+ #*$*$*# 
+ # .$. # 
+##. # .##
+#  *$*  #
+#   *   #
+#  ###  #
+#### ####
+Title: Dual
+Author: François Marques
+
+##### #### 
+#   ###  # 
+# $     @# 
+##$*****$##
+# $.....$ #
+#   #     #
+########  #
+       ####
+Title: Zip
+Author: François Marques
+
+ ####     
+##  ##### 
+#  $  $ # 
+# $*..* ##
+#  *$$.  #
+#@ *.*.  #
+####   ###
+   #####  
+Title: The little dog
+Author: François Marques
+
+  ####   
+  #  ####
+ ##@ $  #
+ # *.*  #
+## * * ##
+#  * * # 
+#  *** # 
+##     # 
+ ####  # 
+    #### 
+Title: Opened circle
+Author: François Marques
+
+  ####   
+  # @##  
+  #$$ #  
+### * ###
+#  .*.$ #
+#  .*.  #
+# #.*.# #
+# $$$   #
+###   ###
+  ##  #  
+   ####  
+Title: Jour J
+Author: François Marques
+
+  #####  
+  # . #  
+###$ $###
+#  $ $  #
+# . . . #
+### * ###
+  # * #  
+  #$.$#  
+  # . #  
+  #$.$#  
+  # + #  
+  #####  
+Title: The crucifix
+Author: François Marques
+

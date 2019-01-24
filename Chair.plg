@@ -1,0 +1,129 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Chair - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/resource.res" /d "NDEBUG" "F:\Programming\C++\Games\Chair\resource.rc"" 
+Creating temporary file "C:\DOCUME~1\MICHAE~1\LOCALS~1\Temp\RSP4F.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Chair.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\Programming\C++\Games\Chair\Board.cpp"
+"F:\Programming\C++\Games\Chair\dlgSimple.cpp"
+"F:\Programming\C++\Games\Chair\Game.cpp"
+"F:\Programming\C++\Games\Chair\Main.cpp"
+"F:\Programming\C++\Games\Chair\Procedure.cpp"
+"F:\Programming\C++\Games\Chair\Room.cpp"
+"F:\Programming\C++\Games\Chair\RoomSet.cpp"
+"F:\Programming\C++\Games\Chair\View.cpp"
+"F:\Programming\C++\Games\Chair\World.cpp"
+"F:\Programming\C++\Games\Chair\lib\App.cpp"
+"F:\Programming\C++\Games\Chair\lib\other\Bitmap.cpp"
+"F:\Programming\C++\Games\Chair\lib\winproc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MICHAE~1\LOCALS~1\Temp\RSP4F.tmp" 
+Creating temporary file "C:\DOCUME~1\MICHAE~1\LOCALS~1\Temp\RSP50.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Chair.pdb" /machine:I386 /out:"Chair.exe" 
+".\Release\Board.obj"
+".\Release\dlgSimple.obj"
+".\Release\Game.obj"
+".\Release\Main.obj"
+".\Release\Procedure.obj"
+".\Release\Room.obj"
+".\Release\RoomSet.obj"
+".\Release\View.obj"
+".\Release\World.obj"
+".\Release\App.obj"
+".\Release\Bitmap.obj"
+".\Release\winproc.obj"
+".\Release\resource.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\MICHAE~1\LOCALS~1\Temp\RSP50.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Board.cpp
+dlgSimple.cpp
+Game.cpp
+Main.cpp
+Procedure.cpp
+Room.cpp
+RoomSet.cpp
+View.cpp
+World.cpp
+App.cpp
+Bitmap.cpp
+winproc.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Chair.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Chair - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/resource.res" /d "_DEBUG" "F:\Programming\C++\Games\Chair\resource.rc"" 
+Creating temporary file "C:\DOCUME~1\MICHAE~1\LOCALS~1\Temp\RSP53.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Chair.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Programming\C++\Games\Chair\Board.cpp"
+"F:\Programming\C++\Games\Chair\dlgSimple.cpp"
+"F:\Programming\C++\Games\Chair\Game.cpp"
+"F:\Programming\C++\Games\Chair\Main.cpp"
+"F:\Programming\C++\Games\Chair\Procedure.cpp"
+"F:\Programming\C++\Games\Chair\Room.cpp"
+"F:\Programming\C++\Games\Chair\RoomSet.cpp"
+"F:\Programming\C++\Games\Chair\View.cpp"
+"F:\Programming\C++\Games\Chair\World.cpp"
+"F:\Programming\C++\Games\Chair\lib\App.cpp"
+"F:\Programming\C++\Games\Chair\lib\other\Bitmap.cpp"
+"F:\Programming\C++\Games\Chair\lib\winproc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MICHAE~1\LOCALS~1\Temp\RSP53.tmp" 
+Creating temporary file "C:\DOCUME~1\MICHAE~1\LOCALS~1\Temp\RSP54.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Chair.pdb" /debug /machine:I386 /out:"Debug/Chair.exe" /pdbtype:sept 
+".\Debug\Board.obj"
+".\Debug\dlgSimple.obj"
+".\Debug\Game.obj"
+".\Debug\Main.obj"
+".\Debug\Procedure.obj"
+".\Debug\Room.obj"
+".\Debug\RoomSet.obj"
+".\Debug\View.obj"
+".\Debug\World.obj"
+".\Debug\App.obj"
+".\Debug\Bitmap.obj"
+".\Debug\winproc.obj"
+".\Debug\resource.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\MICHAE~1\LOCALS~1\Temp\RSP54.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Board.cpp
+dlgSimple.cpp
+Game.cpp
+Main.cpp
+Procedure.cpp
+Room.cpp
+RoomSet.cpp
+View.cpp
+World.cpp
+App.cpp
+Bitmap.cpp
+winproc.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Chair.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

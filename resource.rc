@@ -1,0 +1,251 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open...\tCtrl+O",            IDM_FILE_OPEN
+        MENUITEM "Save &As...\tCtrl+Shift+S",   IDM_FILE_SAVEAS, GRAYED
+        MENUITEM "Save a Cop&y\tCtrl+Alt+S",    IDM_FILE_SAVECOPY, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit\tCtrl+Q",               ID_FILE_EXIT
+    END
+    POPUP "&Game"
+    BEGIN
+        MENUITEM "Next Level On &Win",          ID_GAME_NEXTLEVELONWIN
+        , CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "Restart &Level\tCtrl+N",      ID_GAME_RESTART, GRAYED
+        MENUITEM "&First Room\tCtrl+Shift+Up",  ID_GAME_FIRST, GRAYED
+        MENUITEM "&Last Room\tCtrl+Shift+Down", ID_GAME_LAST, GRAYED
+        MENUITEM "&Next Room\tCtrl+Shift+Right", ID_GAME_NEXT, GRAYED
+        MENUITEM "&Previous Room\tCtrl+Shift+Left", ID_GAME_PREV, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Undo\tCtrl+Z",               ID_GAME_UNDO, GRAYED
+        MENUITEM "Undo Push\tCtrl+Shift+Z",     ID_GAME_UNDOPUSH, GRAYED
+        MENUITEM "U&ndo All\tCtrl+Alt+Z",       ID_GAME_UNDOALL, GRAYED
+        MENUITEM "&Redo\tCtrl+Y",               ID_GAME_REDO, GRAYED
+        MENUITEM "Redo Push\tCtrl+Shift+Y",     ID_GAME_REDOPUSH, GRAYED
+        MENUITEM "R&edo All\tCtrl+Alt+Y",       ID_GAME_REDOALL, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Replay &History\tCtrl+H",     ID_GAME_REPLAY, GRAYED
+        MENUITEM "Replay &Record Solution\tCtrl+R", ID_GAME_REPLAYHIGH
+        , GRAYED
+        MENUITEM "&Stop\tCtrl+T",               ID_GAME_STOP, GRAYED
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "Demo\t*",                     ID_HELP_DEMO
+        MENUITEM "&Contents\t?",                ID_HELP_INSTRUCTIONS
+        MENUITEM "&Schmitztech.com\t!",         ID_HELP_SCHMITZTECH
+        MENUITEM SEPARATOR
+        MENUITEM "&About",                      ID_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR ACCELERATORS DISCARDABLE 
+BEGIN
+    "!",            ID_HELP_SCHMITZTECH,    ASCII,  NOINVERT
+    "*",            ID_HELP_DEMO,           ASCII,  NOINVERT
+    "?",            ID_HELP_INSTRUCTIONS,   ASCII,  NOINVERT
+    "A",            ID_GAME_PLAYREDOS,      VIRTKEY, CONTROL, NOINVERT
+    "H",            ID_GAME_REPLAY,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_GAME_RESTART,        VIRTKEY, CONTROL, NOINVERT
+    "O",            IDM_FILE_OPEN,          VIRTKEY, CONTROL, NOINVERT
+    "Q",            ID_FILE_EXIT,           VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_GAME_REPLAYHIGH,     VIRTKEY, CONTROL, NOINVERT
+    "S",            IDM_FILE_SAVE,          VIRTKEY, CONTROL, NOINVERT
+    "S",            IDM_FILE_SAVECOPY,      VIRTKEY, CONTROL, ALT, NOINVERT
+    "S",            IDM_FILE_SAVEAS,        VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "T",            ID_GAME_STOP,           VIRTKEY, CONTROL, NOINVERT
+    VK_DOWN,        ID_GAME_LAST,           VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    VK_LEFT,        ID_GAME_PREV,           VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    VK_RIGHT,       ID_GAME_NEXT,           VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    VK_UP,          ID_GAME_FIRST,          VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "Y",            ID_GAME_REDO,           VIRTKEY, CONTROL, NOINVERT
+    "Y",            ID_GAME_REDOALL,        VIRTKEY, CONTROL, ALT, NOINVERT
+    "Y",            ID_GAME_REDOPUSH,       VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "Z",            ID_GAME_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_GAME_UNDOALL,        VIRTKEY, CONTROL, ALT, NOINVERT
+    "Z",            ID_GAME_UNDOPUSH,       VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 241, 46
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Chair Equals Money"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,184,7,50,14
+    LTEXT           "Chair Equals Money 1.12",IDC_STATIC,39,9,107,11
+    LTEXT           "Copyright© 2003 Michael Schmitz\nhttp://www.schmitztech.com/",
+                    IDC_STATIC,39,21,107,16
+    ICON            IDI_ICON,IDC_STATIC,12,13,20,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LCHAIR              BITMAP  DISCARDABLE     "art\\Large\\chair.bmp"
+IDB_LMONEY              BITMAP  DISCARDABLE     "art\\money.bmp"
+IDB_LPERSON             BITMAP  DISCARDABLE     "art\\person.bmp"
+IDB_LSPOT               BITMAP  DISCARDABLE     "art\\spot.bmp"
+IDB_LWALL               BITMAP  DISCARDABLE     "art\\wall.bmp"
+IDB_LPERSONSPOT         BITMAP  DISCARDABLE     "art\\personspot.bmp"
+IDB_MWALL               BITMAP  DISCARDABLE     "art\\Medium\\wall.bmp"
+IDB_MMONEY              BITMAP  DISCARDABLE     "art\\Medium\\money.bmp"
+IDB_MPERSON             BITMAP  DISCARDABLE     "art\\Medium\\person.bmp"
+IDB_MPERSONSPOT         BITMAP  DISCARDABLE     "art\\Medium\\personspot.bmp"
+IDB_MSPOT               BITMAP  DISCARDABLE     "art\\Medium\\spot.bmp"
+IDB_MCHAIR              BITMAP  DISCARDABLE     "art\\Medium\\chair.bmp"
+IDB_SWALL               BITMAP  DISCARDABLE     "art\\Small\\wall.bmp"
+IDB_SMONEY              BITMAP  DISCARDABLE     "art\\Small\\money.bmp"
+IDB_SPERSON             BITMAP  DISCARDABLE     "art\\Small\\person.bmp"
+IDB_SPERSONSPOT         BITMAP  DISCARDABLE     "art\\Small\\personspot.bmp"
+IDB_SSPOT               BITMAP  DISCARDABLE     "art\\Small\\spot.bmp"
+IDB_SCHAIR              BITMAP  DISCARDABLE     "art\\Small\\chair.bmp"
+IDB_TITLE               BITMAP  DISCARDABLE     "art\\title.bmp"
+IDB_INSTRUCTIONS        BITMAP  DISCARDABLE     "art\\instructions.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "art\\chair.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,2,0
+ PRODUCTVERSION 1,1,2,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Compiled: 19 July 2003\0"
+            VALUE "CompanyName", "Michael Schmitz Technologies\0"
+            VALUE "FileDescription", "Lights Out\0"
+            VALUE "FileVersion", "1, 1, 2, 0\0"
+            VALUE "InternalName", "\0"
+            VALUE "LegalCopyright", "Copyright © 2003 Michael Schmitz\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CHAIR.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Chair Equals Money\0"
+            VALUE "ProductVersion", "1.12\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

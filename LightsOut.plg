@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LightsOut - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/resource.res" /d "_DEBUG" "F:\Programming\C++\Games\Lights Out\resource.rc"" 
+Creating temporary file "C:\DOCUME~1\MICHAE~1\LOCALS~1\Temp\RSPEB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Lights.pdb" /debug /machine:I386 /out:"Debug/Lights.exe" /pdbtype:sept 
+".\Debug\dlgBoardSize.obj"
+".\Debug\dlgTileSize.obj"
+".\Debug\Game.obj"
+".\Debug\Main.obj"
+".\Debug\Procedure.obj"
+".\Debug\View.obj"
+".\Debug\World.obj"
+".\Debug\App.obj"
+".\Debug\Bitmap.obj"
+".\Debug\winproc.obj"
+".\Debug\resource.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\MICHAE~1\LOCALS~1\Temp\RSPEB.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+Lights.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,540 @@
+; Novoban
+
+; Copyright: François Marques
+; E-Mail: sokoban@online.fr
+; Web Site: http://sokoban.online.fr
+;
+; This collection of 50 levels is intended for beginners. The difficulty of the
+; levels is increasing. The collection ends with some medium levels. I submitted
+; these problems to my 10 and 14 year old nephews who completed all in one day
+; (which is not bad at all for complete beginners). However, if you are an expert,
+; solving the whole collection in less than 45 minutes is quite a challenge. 
+;   
+
+####  
+#  ###
+#  $@#
+# *. #
+##   #
+ #####
+Title: Be ban 10
+Author: François Marques
+
+####  
+#  #  
+#  ###
+#  $ #
+##*#.#
+#  @ #
+#    #
+#  ###
+####  
+Title: Be ban 9
+Author: François Marques
+
+####  
+#  #  
+#  #  
+# @###
+# $$ #
+#.  .#
+######
+Title: Be ban 7
+Author: François Marques
+
+##### 
+#   # 
+#.#$##
+#  @ #
+#. $ #
+###  #
+  ####
+Title: Be ban 1
+Author: François Marques
+
+  ####
+###  #
+#.$$.#
+# #  #
+# @  #
+###  #
+  ####
+Title: Be ban 5
+Author: François Marques
+
+  ####  
+###  #  
+#    #  
+#   .###
+### #@.#
+  # $$ #
+  #  $ #
+  #. ###
+  ####  
+Title: Try ban 5
+Author: François Marques
+
+ ##### 
+##...##
+# $$$.#
+# $+$ #
+#.$$$ #
+##..  #
+ ######
+Title: Surrounded
+Author: François Marques
+
+ ###### 
+##    # 
+# $## ##
+#      #
+##  .@.#
+ #$# ###
+ #   #  
+ #####  
+Title: Be ban 3
+Author: François Marques
+
+ ####   
+##  ####
+#      #
+# ..#$ #
+###  $ #
+  ###@ #
+    ####
+Title: The gun
+Author: François Marques
+
+    ##### 
+    #   # 
+##### # ##
+#  # $   #
+#   $  # #
+# .. #   #
+###@ #####
+  #  #    
+  ####    
+Title: Be ban 2
+Author: François Marques
+
+  #####  
+  #   ###
+###@$.  #
+#  *#   #
+#   $. ##
+#####  # 
+    #### 
+Title: Try ban 11
+Author: François Marques
+
+####   
+#  ####
+# .   #
+# @$$ #
+##  ###
+ #. #  
+ #  #  
+ ####  
+Title: Be ban 14
+Author: François Marques
+
+ ##### 
+##  .# 
+# $#.# 
+#    ##
+## #  #
+ #$ @ #
+ #   ##
+ ##### 
+Title: Be Ban 04
+Author: François Marques
+
+   #####
+   #   #
+####   #
+#.*   ##
+# $#  # 
+#@ #  # 
+####### 
+Title: The dog
+Author: François Marques
+
+####  
+#.@#  
+#  ###
+# $  #
+# $. #
+#  ###
+####  
+Title: Be ban 6
+Author: François Marques
+
+   ####   
+   #  #   
+   #  #   
+####  ####
+#   # $@ #
+#     $$.#
+### ###  #
+ ## .#####
+ #   #    
+ #.  #    
+ #####    
+Title: Try ban 7
+Author: François Marques
+
+     #     
+    ###    
+  ## @ ##  
+ # . * . # 
+# $.$*$.$ #
+#  ## ##  #
+#         #
+###########
+Title: The house
+Author: François Marques
+
+ #######
+ #    .#
+ # ###.#
+## #   #
+#  # $ #
+#  @ $##
+#  #  # 
+####### 
+Title: Be ban 11
+Author: François Marques
+
+  ####   
+###  ####
+#    #@.#
+#    $$.#
+#  ## $.#
+#####   #
+    #####
+Title: Try ban 6
+Author: François Marques
+
+ #####  
+ # @ ###
+ # #   #
+##$.*# #
+# $.*  #
+# #  ###
+#    #  
+######  
+Title: For ban 21
+Author: François Marques
+
+  ##     
+ #  #    
+ #$@#    
+ #.$##   
+##.$  ## 
+# .#   ##
+#       #
+#####   #
+    #####
+Title: The finger
+Author: François Marques
+
+####   
+#  ### 
+# @  # 
+#. #$##
+##.$  #
+# $.# #
+# #   #
+#    ##
+###  # 
+  #### 
+Title: Try ban 1
+Author: François Marques
+
+ #######  
+##  #  ###
+# $ # $  #
+#  .@.   #
+##$ # $###
+ # . . #  
+ #######  
+Title: For ban 9
+Author: François Marques
+
+####    
+#  #####
+#  .*. #
+# $ $ @#
+#   ####
+#####   
+Title: Try ban 17
+Author: François Marques
+
+#######
+#. . .#
+#   # #
+##  $ #
+ # $$##
+ #  @# 
+ ##### 
+Title: Try ban 19
+Author: François Marques
+
+ ####  
+ #  ## 
+##   ##
+# @$$ #
+# # # #
+#..   #
+#######
+Title: Be ban 8
+Author: François Marques
+
+  #### 
+  # .# 
+###  ##
+# $$  #
+#     #
+##$# ##
+ #.@.# 
+ ##### 
+Title: Try ban 20
+Author: François Marques
+
+  ##### 
+  #   # 
+###$# ##
+#  $@$ #
+# #    #
+#... ###
+######  
+Title: Try ban 21
+Author: François Marques
+
+######    
+#    #    
+#  .$#####
+##*+$    #
+ # .$#   #
+ ##  #####
+  ####    
+Title: For ban 4
+Author: François Marques
+
+ #######
+## .   #
+# $*$# #
+# #@   #
+#  . ###
+######  
+Title: Try ban 22
+Author: François Marques
+
+ ####### 
+##....@##
+#  $ #$ #
+#  $  $ #
+#  ##   #
+#########
+Title: For ban 8
+Author: François Marques
+
+   ####
+#### @#
+#  $$ #
+# . $ #
+##.. ##
+ ##### 
+Title: Try ban 10
+Author: François Marques
+
+########
+# .@.  #
+# $ $  #
+##*#*###
+#     # 
+#     # 
+#  #### 
+####    
+Title: For ban 35
+Author: François Marques
+
+####### 
+# .   # 
+#  $..# 
+###$*###
+# $@   #
+#      #
+########
+Title: For ban 18
+Author: François Marques
+
+  #### 
+###  # 
+#    ##
+# # ..#
+# $$$@#
+### # #
+  #  .#
+  #####
+Title: Try ban 14
+Author: François Marques
+
+  #####
+###   #
+# $$$@#
+#... ##
+#    # 
+###### 
+Title: Try ban 16
+Author: François Marques
+
+  #####
+ ##   #
+ # @  #
+## $ ##
+# $* # 
+# #. # 
+#  .## 
+#####  
+Title: Try ban 18
+Author: François Marques
+
+  ####  
+  #  #  
+###$ ## 
+#  $  # 
+#@#*. ##
+#  *.  #
+###    #
+  ######
+Title: For ban 26
+Author: François Marques
+
+    #####
+  ###@  #
+  #. $ .#
+  #  $ ##
+ ### ### 
+## $  #  
+#     #  
+#.  ###  
+#####    
+Title: Try ban 8
+Author: François Marques
+
+####  
+#  ## 
+#@. # 
+#..$##
+# $$ #
+#    #
+######
+Title: Try ban 15
+Author: François Marques
+
+  ####  
+  #  ###
+### .  #
+#@$$$  #
+#   #. #
+###.  ##
+  ##### 
+Title: Try ban 23
+Author: François Marques
+
+ ####   
+ #  #   
+ #  ####
+ # ..* #
+## $$@ #
+#   ####
+#   #   
+#####   
+Title: Try ban 28
+Author: François Marques
+
+#####    
+#   ###  
+#  .$ ###
+## .# $ #
+ # .# $@#
+ ##.  $ #
+  #  ####
+  ####   
+Title: For ban 10
+Author: François Marques
+
+####     
+#  ##### 
+#    @ ##
+# .*.$* #
+##  #$  #
+ ##   ###
+  #####  
+Title: The plane
+Author: François Marques
+
+    #### 
+#####  # 
+#   ..$##
+# $@# $ #
+##$..   #
+ #  ##  #
+ ########
+Title: For ban 6
+Author: François Marques
+
+ ##### 
+ #   # 
+ # #$##
+##..@ #
+# *.$ #
+# # $##
+#    # 
+###### 
+Title: For ban 17
+Author: François Marques
+
+###      
+#.#####  
+#...  #  
+# # # ###
+#   $$ @#
+###  $$ #
+  ###   #
+    #####
+Title: For ban 27
+Author: François Marques
+
+ ########
+ #  ## .#
+##   $  #
+#  $#$ .#
+#   #@ ##
+#. ##  # 
+######## 
+Title: Try ban 4
+Author: François Marques
+
+ #####  
+ #   #  
+##   ###
+# $$$$ #
+# .... #
+## @ ###
+ #####  
+Title: For ban 37
+Author: François Marques
+
+######## 
+#.. @..# 
+#  $$$ # 
+#### ####
+#       #
+#     $ #
+#  ######
+####     
+Title: For ban 5
+Author: François Marques
+

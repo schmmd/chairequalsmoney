@@ -1,0 +1,143 @@
+; Numbers
+
+; Copyright: François Marques
+; E-Mail: sokoban@online.fr
+; Web Site: http://sokoban.online.fr
+;
+; This collection consists of 10 levels: one for each digit. The difficulty of the levels
+; varies. I think that you will be able to test them profitably.
+;   
+
+  ###  
+ # @.# 
+# $$* #
+#  #. #
+#     #
+# $#  #
+ #  .# 
+  ###  
+Title: Zero
+Author: François Marques
+
+  #### 
+ ##  # 
+#    # 
+#    # 
+###$$# 
+  #..# 
+  #..# 
+ #@$$ #
+ #    #
+ ######
+Title: Number 1
+Author: François Marques
+
+ ####   
+##   #  
+#    .# 
+# .#  # 
+###@  # 
+ # $ #  
+## $ #  
+# $ ####
+# $.   #
+#    . #
+########
+Title: Two
+Author: François Marques
+
+########
+#      #
+#@$ $$ #
+####  # 
+#  ##  #
+#  #. .#
+#   .  #
+ #    # 
+  ####  
+Title: Three
+Author: François Marques
+
+    ### 
+   #  # 
+  #   # 
+ # #.$##
+#  ..@ #
+#  $$* #
+####   #
+   #  # 
+   #### 
+Title: Four
+Author: François Marques
+
+  #######
+ ##     #
+##    $ #
+# $ #####
+# $$@$ # 
+#       #
+#####   #
+#. # #  #
+#. .##  #
+#       #
+ #. .  # 
+  #####  
+Title: Five
+Author: François Marques
+
+  ####  
+ # .. # 
+#.@*$  #
+#  #   #
+#  #####
+#. $  # 
+#  $   #
+#.###  #
+# $ $  #
+ #    # 
+  ####  
+Title: Six
+Author: François Marques
+
+########
+#      #
+# $ $  #
+#### $ #
+  #.$ ##
+  #. ## 
+ ##.@## 
+ # .  # 
+ # $$ # 
+ # . ## 
+  #.$#  
+  #. #  
+  ####  
+Title: Seven
+Author: François Marques
+
+ ##### 
+## @ ##
+# .$. #
+# $.$ #
+ #$.$# 
+#  .  #
+# $.$ #
+# .$. #
+##   ##
+ ##### 
+Title: Eight
+Author: François Marques
+
+  ######  
+ #  .  ## 
+#  *.*  ##
+# $#.#$  #
+# $   $  #
+#######  #
+#   ###  #
+# $.$.$  #
+## .@.  # 
+ #######  
+Title: Nine
+Author: François Marques
+
